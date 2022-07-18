@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/migpack/static/css/main.f7fe4406.css",
+    "main.js": "/migpack/static/js/main.18a6e819.js",
+    "static/js/787.9135ebb4.chunk.js": "/migpack/static/js/787.9135ebb4.chunk.js",
+    "index.html": "/migpack/index.html",
+    "main.f7fe4406.css.map": "/migpack/static/css/main.f7fe4406.css.map",
+    "main.18a6e819.js.map": "/migpack/static/js/main.18a6e819.js.map",
+    "787.9135ebb4.chunk.js.map": "/migpack/static/js/787.9135ebb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7fe4406.css",
+    "static/js/main.18a6e819.js"
+  ]
+}
