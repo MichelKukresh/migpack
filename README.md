@@ -86,3 +86,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * * обозначение переменной - $base
 * * вычисления, пример with: (100% - #{$base})
 * * 
+
+
+* * Вопросы как можно ставлять блок поиска.

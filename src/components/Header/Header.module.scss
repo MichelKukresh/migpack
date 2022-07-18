@@ -109,5 +109,31 @@
     }
   }
 
+  //?
+
+
+  .searchVisible_long {
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 988px) {
+    .searchVisible_long {
+        display: none;        
+    }
+  }
+
+  .searchVisible_short {
+    display: none;  
+    
+  }
+
+  @media (max-width: 988px) {
+    .searchVisible_short {
+        display: block;
+    width: 100%;
+              
+    }
+  }
 
 

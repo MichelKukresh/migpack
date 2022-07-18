@@ -38,7 +38,9 @@ function Header() {
       <div className={styles.container}>
         <img src={logo} alt="логотип"></img>
 
-        <SearchForm></SearchForm>
+        <div className={styles.searchVisible_long}><SearchForm></SearchForm></div>
+
+        
 
         <div>
           <span className={styles.mumber_phone}>+7 (495) 744-60-84</span>
@@ -51,7 +53,16 @@ function Header() {
 
         <FontAwesomeIcon className={styles.shopping_bag} icon={faShoppingBag} />
       </div>
+
+      <div>
+
       <div className={styles.menu_lavel}>Меню линк</div>
+
+      <div className={styles.searchVisible_short}><SearchForm></SearchForm></div>
+      </div>
+
+
+      
     </div>
   );
 }
