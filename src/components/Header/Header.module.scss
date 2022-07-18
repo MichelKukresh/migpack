@@ -1,0 +1,113 @@
+.wrapper {
+    
+  max-width: 1470px;
+  min-height: 185px;
+  margin: auto;
+  font-family: "Rubik", "Tahoma", sans-serif;
+  line-height: 1.42857143;
+  font-size: 0.95em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1597px) {
+  .wrapper {
+    max-width: 1290px;
+  }
+}
+
+@media (max-width: 1349px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 1179px) {
+  .wrapper {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 988px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 766px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+.top_menu {
+  font-family: "Rubik", "Tahoma", sans-serif;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu_lavel {
+  font-family: "Rubik", "Tahoma", sans-serif;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping_bag {
+    height: 40px;
+    padding: 0;
+    color: #c71010;
+}
+
+.mumber_phone {
+    font-size: 1.1em;
+    font-family: 'Rubik', 'Tahoma', sans-serif;
+    line-height: 1.42857143;
+    font-weight: 500;
+    border-bottom: dotted 1px;
+    cursor: pointer;
+    padding-bottom: 2px;    
+}
+// .mumber_chevron {
+//     display: flex;
+// }
+
+.phone_envelope {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 22px;
+}
+
+.icon {
+    margin-left: 5px;
+    border-bottom: dotted 1px;
+    padding-bottom: 2px;
+}
+
+@media (max-width: 766px) {
+    .icon {
+        display: none;    
+    }
+  }
+
+
+@media (min-width: 766px) {
+    .icon_media {
+        display: none;    
+    }
+  }
+
+
+
