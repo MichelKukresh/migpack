@@ -13,6 +13,7 @@ import logo from "../../images/migpack5.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { SearchForm } from "../SearchForm/SearchForm";
+import { MenuLavel } from "../MenuLavel/MenuLavel";
 
 function Header() {
 
@@ -21,17 +22,17 @@ function Header() {
     <div className={styles.wrapper}>
       <div className={styles.top_menu}>
         <div>
-          <Link to="">Информация о доставке</Link>
-          <Link to="">О нас</Link>
-          <Link to="">Политика безопасности</Link>
+          <Link className={styles.link_top_menu} to="">Информация о доставке</Link>
+          <Link className={styles.link_top_menu} to="">О нас</Link>
+          <Link className={styles.link_top_menu} to="">Политика безопасности</Link>
         </div>
         <div>
           <FontAwesomeIcon icon={faHeart} />
-          <Link to="">Избранное</Link>
+          <Link className={styles.link_top_menu} to="">Избранное</Link>
           <FontAwesomeIcon icon={faAlignRight} />
-          <Link to="">Сравнение</Link>
+          <Link className={styles.link_top_menu} to="">Сравнение</Link>
           <FontAwesomeIcon icon={faUser} />
-          <Link to="">Личный кабинет</Link>
+          <Link className={styles.link_top_menu} to="">Личный кабинет</Link>
         </div>
       </div>
 
@@ -54,9 +55,14 @@ function Header() {
         <FontAwesomeIcon className={styles.shopping_bag} icon={faShoppingBag} />
       </div>
 
-      <div>
+      <div className={styles.menu_avel}>
 
-      <div className={styles.menu_lavel}>Меню линк</div>
+        <button className={`${styles.searchVisible_short} ${styles.catalog}`}>Категории</button>
+        <div className={styles.searchVisible_long}><MenuLavel></MenuLavel></div>
+
+        
+
+      
 
       <div className={styles.searchVisible_short}><SearchForm></SearchForm></div>
       </div>

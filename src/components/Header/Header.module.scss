@@ -50,11 +50,7 @@
   justify-content: space-between;
 }
 
-.menu_lavel {
-  font-family: "Rubik", "Tahoma", sans-serif;
-  width: 100%;
-  background-color: #f5f5f5;
-}
+
 
 .container {
     display: flex;
@@ -136,4 +132,24 @@
     }
   }
 
+  .menu_avel {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .catalog {
+    min-height: 34px;
+    max-width: 100px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  .link_top_menu {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
