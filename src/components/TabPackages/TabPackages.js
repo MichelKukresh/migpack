@@ -16,21 +16,7 @@ function TabPackages() {
           <li className={styles.tab_list}>  <span>&raquo;</span>Следующий таб +</li>  
           <li className={styles.tab_list}>  <span>&raquo;</span>Следующий таб +</li>            
         </ul>
-
-
-
-      </div>
-      <div>
-        <div>Имя тоол бара</div>
-        <div>Отображение товара</div>
-        <div>Отображение товара</div>
-        <div>Карточка товара</div>
-        <div>Карточка товара</div>
-        <div>Карточка товара</div>
-        <div>Карточка товара</div>
-        <div>Карточка товара</div>
-        <div>Карточка товара</div>
-      </div>
+      </div>      
     </div>
   );
 }
