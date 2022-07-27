@@ -1,7 +1,7 @@
 .wrapper {
     
     max-width: 1470px;
-    min-height: 185px;
+    //min-height: 185px;
     margin: auto;
     font-family: "Rubik", "Tahoma", sans-serif;
     line-height: 1.42857143;
@@ -38,6 +38,14 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
     }
+
+    .footer__text{      
+      grid-column: span 2;            
+    }
+
+
+
+
   }
   
   @media (max-width: 766px) {
@@ -45,4 +53,28 @@
       width: 100%;
       grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer__text{      
+      display: none;           
+    }
+
   }
+
+  .chevron {
+    list-style-type: none;
+  }
+
+//   .footer__text {
+//     padding: 20px 0;
+//     font-size: .95em;
+//     border-top: solid 1px rgba(0, 0, 0, .08);
+// }
+
+.footer__text{
+  /* Занимает один ряд и
+  растягивается на две колонки */
+  grid-column: span 4;
+  background: pink;///
+  height: 40px;
+  //margin-bottom: 100px;///
+}
