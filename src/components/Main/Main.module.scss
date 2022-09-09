@@ -6,10 +6,6 @@
     font-family: "Rubik", "Tahoma", sans-serif;
     line-height: 1.42857143;
     font-size: 0.95em;
-    
-
-
-
   }
   
   @media (max-width: 1597px) {
@@ -43,7 +39,6 @@
   }
 
   .card__container {
-
     display: grid;
     grid-template-columns: repeat(auto-fill, 290px);
 
@@ -58,12 +53,7 @@
   }
 
   .hedingTitleAfter {
-    position: relative;
-    // z-index: 2;
-    // padding: 0 15px 0 0;
-    // background: #fff;
-    // font-size: 1.4em;
-    // font-weight: 500;
+    position: relative;    
   }
 
   .hedingTitle {
